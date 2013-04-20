@@ -360,9 +360,9 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
   <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" revision="cm10.1" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
+  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
 
   <!-- Mustaavalkosta -->
   <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-10.1" />
