@@ -365,17 +365,17 @@
   <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" revision="jb4.2" />
 
   <!-- Mustaavalkosta -->
-  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" revision="cm-10.1" />
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" revision="cm-10.1" />
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" revision="cm-10.1" />
-  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" revision="cm-10.1" />
-  <project path="local_manifest" name="Mustaavalkosta/android" revision="cm-10.1" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux_x86_arm_arm-eabi-4.7" revision="master" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" revision="jb-mv" />
-  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" revision="cm-10.1" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-10.1" />
+  <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-10.1" />
+  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
+  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-10.1" />
+  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
+  <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
+  <project path="local_manifest" name="Mustaavalkosta/android" remote="github" revision="cm-10.1" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux_x86_arm_arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
+  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-10.1" />
+  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
   
   <!-- begin espmartin mod testing -->
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
