@@ -367,7 +367,8 @@
   <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
   <project path="local_manifest" name="Mustaavalkosta/android" remote="github" revision="cm-10.1" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux_x86_arm_arm-eabi-4.7" remote="github" revision="master" />
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
+  <!-- <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux_x86_arm_arm-eabi-4.7" remote="github" revision="master" /> -->
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
