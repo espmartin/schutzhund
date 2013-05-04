@@ -371,6 +371,8 @@
   <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
   <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-10.1" />
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
+  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
+  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
   
   <!-- begin espmartin mod testing -->
   <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
@@ -394,9 +396,6 @@
   <!-- end testing of kernel repos -->
   
   <!-- begin espmartin's to be worked on -->
-  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
-  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
   
