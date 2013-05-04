@@ -26,7 +26,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="espmartin" revision="master" >
+  <project path="build" name="espmartin/android_build" remote="espmartin" revision="master" >
  
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
