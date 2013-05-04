@@ -394,6 +394,8 @@
   <!-- end testing of kernel repos -->
   
   <!-- begin espmartin's to be worked on -->
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" remote="github" revision="cm-10.1" />
+  
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
   
