@@ -391,6 +391,7 @@
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
 
   <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
+  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
   <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
   <project path="device/htc/msm7x30-common" name="espmartin/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
   <!-- end testing of kernel repos -->
@@ -398,14 +399,5 @@
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
-  
-  <!-- support repos for above apps -->
-  <!--
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-cb" />
-  <project path="external/skia" name="espmartin/external_skia" remote="github" revision="jb-mr1" />    
-  <project path="packages/apps/Settings" name="espmartin/packages_apps_Settings" remote="github" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-mr1" />
-  -->
-  <!-- end espmartin mod testing -->
-  
+    
 </manifest>
