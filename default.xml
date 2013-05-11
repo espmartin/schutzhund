@@ -39,7 +39,7 @@
  
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
- <project path="schutzhund" name="schutzhund" remote="espmartin" revision="schutzhund" />
+ <project path="schutzhund" name="schutzhund" remote="espmartin" revision="master" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
