@@ -359,8 +359,7 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
 
   <!-- codefireX stuff -->
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
-  
+    
   <!-- CM stuff -->
   <!-- CM needed hardware -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
