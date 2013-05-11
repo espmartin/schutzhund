@@ -412,7 +412,7 @@
   <project path="vendor/pizza" name="android_vendor_pizza" remote="Mustaavalkosta" revision="jb-mv" />
   
   <!-- espmartin -->
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="espmartin" revision="jb-mr1" />
+  <!-- <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" /> -->
   <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
