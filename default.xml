@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
 
   <remote  name="aokp"
-           fetch="https://github.com/"
+           fetch="https://github.com/AOKP/"
            review="gerrit.aokp.co" />
 
   <remote  name="github"
@@ -14,6 +14,15 @@
 
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex/" />
+
+  <remote  name="pa"
+           fetch="https://github.com/ParanoidAndroid/" />
+
+  <remote  name="andro"
+           fetch="https://github.com/Andromadus/" />
+
+  <remote  name="Mustaavalkosta"
+           fetch="https://github.com/Mustaavalkosta/" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
@@ -347,73 +356,70 @@
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="github" revision="jb-mr1" />
+  <!-- codefireX stuff -->
+  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
+  
+  <!-- CM stuff -->
+  <!-- CM needed hardware -->
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+
+  <project path="prebuilt" name="android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-
-  <!-- CM stuff -->
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-10.1" />
- 
- <!-- AOKP -->
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="github" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="jellybean-stable" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="cm-10.1" />
+  
+  <!-- AOKP -->
+  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/wallpapers/SwagPapers" name="packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   
   <!-- PA -->
-  <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jellybean" />
-  <project path="vendor/pa" name="ParanoidAndroid/android_vendor_pa" revision="jellybean" />
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jellybean" />
+  <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
+  <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jellybean" />
+  <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
 
   <!-- Andromadus -->
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="cm10.1" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="andro" revision="Andro4.2" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="andro" revision="cm10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="andro" revision="jb4.2" />
+  <project path="device/htc/common" name="android_device_htc_common" remote="andro" revision="jb" />
 
   <!-- Mustaavalkosta -->
-  <!-- <project path="device/htc/ace" name="Mustaavalkosta/android_device_htc_ace" remote="github" revision="cm-10.1" /> -->
-  <project path="device/htc/msm7x30-common" name="Mustaavalkosta/android_device_htc_msm7x30-common" remote="github" revision="cm-10.1" />
-  <project path="frameworks/av" name="Mustaavalkosta/android_frameworks_av" remote="github" revision="cm-10.1" />
-  <project path="frameworks/native" name="Mustaavalkosta/android_frameworks_native" remote="github" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="Mustaavalkosta/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
-  <project path="local_manifest" name="Mustaavalkosta/android" remote="github" revision="cm-10.1" />
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="Mustaavalkosta/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="github" revision="master" />
-  <project path="prebuilts/misc" name="Mustaavalkosta/android_prebuilts_misc" remote="github" revision="jb-mv" />
-  <project path="vendor/htc/ace" name="Mustaavalkosta/android_vendor_htc_ace" remote="github" revision="cm-10.1" />
-  <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" remote="github" revision="cm-10.1" />
-  <project path="vendor/cm" name="Mustaavalkosta/android_vendor_cm" remote="github" revision="jb-mv" />
-  <project path="vendor/pizza" name="Mustaavalkosta/android_vendor_pizza" remote="github" revision="jb-mv" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
+  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="Mustaavalkosta" revision="jb-mv" />
+  <project path="vendor/htc/ace" name="android_vendor_htc_ace" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="Mustaavalkosta" revision="jb-mv" />
+  <project path="vendor/pizza" name="android_vendor_pizza" remote="Mustaavalkosta" revision="jb-mv" />
   
-  <!-- begin espmartin mod testing -->
-  <project path="frameworks/base" name="espmartin/frameworks_base" remote="github" revision="jb-mr1" />
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="jellybean-stable" />
-  <project path="packages/apps/Music" name="CyanogenMod/android_packages_apps_Music" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/MusicFX" name="CyanogenMod/android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
-  <!-- end espmartin mod testing -->
+  <!-- espmartin -->
+  <project path="frameworks/base" name="espmartin/frameworks_base" remote="espmartin" revision="jb-mr1" />
+  <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
+  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="espmartin" revision="jb-mr1" />
   
   <!-- begin testing of kernel repos -->
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="kernel/htc/htc7x30-3.0" name="Mustaavalkosta/htc7x30-3.0" remote="github" revision="cm-10.1" />
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
 
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
-  <project path="vendor/aokp" name="espmartin/vendor_aokp" remote="github" revision="jb-mr1" />
-  <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="github" revision="jb" />
-  <project path="device/htc/msm7x30-common" name="espmartin/android_device_htc_msm7x30-common" remote="github" revision="jb-mr1" />
-  <!-- end testing of kernel repos -->
-  
-  <!-- CM needed hardware -->
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
 
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
