@@ -347,7 +347,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
@@ -384,6 +383,7 @@
   <project path="packages/apps/ROMControl" name="packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aokp" revision="jb-mr1" />
+  <project path="system/core" name="system_core" remote="aokp" revision="jb-mr1" />
   
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
