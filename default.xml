@@ -82,7 +82,6 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -214,12 +213,6 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
-  <project path="external/xmlwriter" name="platform/external/xmlwriter" />
-  <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
-  <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
@@ -357,7 +350,6 @@
 
   <!-- codefireX stuff -->
     
-  <!-- CM stuff -->
   <!-- CM needed hardware -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
@@ -366,17 +358,28 @@
 
   <project path="prebuilt" name="android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
+  <project path="external/clang" name="android_external_clang" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
+  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
+  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
+  <project path="external/zxing" name="platform/external/zxing" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="jellybean-stable" />
-  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="cm" revision="cm-10.1" />
- 
+  <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-10.1" />
+
+  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="github" revision="jellybean-stable" />
+  <project path="packages/apps/Music" name="android_packages_apps_Music" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
+  
   <!-- AOKP -->
   <project path="external/koush/Superuser" name="external_koush_Superuser" remote="aokp" revision="master" />
   <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
@@ -406,7 +409,6 @@
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="Mustaavalkosta" revision="cm-10.1" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="vendor/htc/ace" name="android_vendor_htc_ace" remote="Mustaavalkosta" revision="cm-10.1" />
