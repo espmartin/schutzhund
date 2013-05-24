@@ -27,8 +27,12 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
+  
+  <remote  name="omapzoom"
+           fetch="git://git.omapzoom.org/"
+           review="http://review.omapzoom.org/" />
 
-<remote  name="espmartin"
+  <remote  name="espmartin"
            fetch="https://github.com/espmartin/" />
 
 <default revision="refs/tags/android-4.2.2_r1"
