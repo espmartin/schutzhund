@@ -396,8 +396,8 @@
   <project path="system/core" name="system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" /> -->
+  <!-- <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr1" /> -->
   
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
@@ -412,8 +412,8 @@
   <!-- Mustaavalkosta -->
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
-  <!-- <project path="frameworks/av" name="android_frameworks_av" remote="Mustaavalkosta" revision="cm-10.1" /> -->
-  <!-- <project path="frameworks/native" name="android_frameworks_native" remote="Mustaavalkosta" revision="cm-10.1" /> -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="Mustaavalkosta" revision="cm-10.1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
   <project path="prebuilts/misc" name="android_prebuilts_misc" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="vendor/htc/ace" name="android_vendor_htc_ace" remote="Mustaavalkosta" revision="cm-10.1" />
