@@ -379,15 +379,15 @@
   
   <!-- AOKP -->
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
-  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
-  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
-  <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
-  <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" />
-  <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr1" />
-  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
-  <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
-  <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="aokp" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aokp" revision="jb-mr1" />
+  <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
+  <project path="external/jpeg" name="external_jpeg" remote="aokp" revision="jb-mr1" />
+  <project path="external/libpng" name="external_libpng" remote="aokp" revision="jb-mr1" />
+  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="aokp" revision="master" />
+  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/qrngd" name="external_qrngd" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/kissfft" name="external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
