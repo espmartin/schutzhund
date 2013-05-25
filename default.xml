@@ -77,7 +77,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -89,10 +88,8 @@
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -126,12 +123,10 @@
   <project path="external/jack" name="platform/external/jack" />
   <project path="external/javasqlite" name="platform/external/javasqlite" />
   <project path="external/javassist" name="platform/external/javassist" />
-  <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
   <project path="external/jdiff" name="platform/external/jdiff" />
   <project path="external/jhead" name="platform/external/jhead" groups="pdk" />
   <project path="external/jmdns" name="platform/external/jmdns" />
   <project path="external/jmonkeyengine" name="platform/external/jmonkeyengine" />
-  <project path="external/jpeg" name="platform/external/jpeg" groups="pdk" />
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
@@ -147,7 +142,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libselinux" name="platform/external/libselinux" />
   <project path="external/libsepol" name="platform/external/libsepol" />
@@ -384,8 +378,16 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.1" />
   
   <!-- AOKP -->
-  <project path="external/koush/Superuser" name="external_koush_Superuser" remote="aokp" revision="master" />
-  <project path="external/koush/Widgets" name="external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+  <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
+  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
+  <project path="external/jbirdvegas/mGerrit" name="AOKP/external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
+  <project path="external/jpeg" name="AOKP/external_jpeg" remote="aokp" revision="jb-mr1" />
+  <project path="external/libpng" name="AOKP/external_libpng" remote="aokp" revision="jb-mr1" />
+  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
+  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
+  <project path="external/qrngd" name="AOKP/external_qrngd" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="AOKP/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/kissfft" name="external_kissfft" remote="aokp" revision="jb-mr1" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
