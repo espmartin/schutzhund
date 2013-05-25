@@ -378,7 +378,7 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="cm" revision="cm-10.1" />
   
   <!-- AOKP -->
-  <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aokp" revision="jb-mr1" />
   <project path="external/jbirdvegas/mGerrit" name="external_jbirdvegas_mGerrit" remote="aokp" revision="master" />
