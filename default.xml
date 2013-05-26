@@ -39,6 +39,8 @@
   <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="schutzhund" name="schutzhund" remote="espmartin" revision="aokp" />
+  
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -501,7 +503,5 @@
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
   <!-- end espmartin's to be worked on -->
-  
-  <project path="platform_manifest" name="espmartin/platform_manifest" remote="github" revision="jb-mr1" />
 
 </manifest>
