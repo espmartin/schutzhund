@@ -236,13 +236,13 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
+  <!-- <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" /> -->
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" />
+  <!-- <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" /> -->
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
-  <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" />
+  <!-- <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom" /> -->
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
@@ -256,7 +256,7 @@
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
+  <!-- <project path="packages/apps/Camera" name="platform/packages/apps/Camera" /> -->
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
@@ -345,7 +345,9 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
 
   <!-- codefireX stuff -->
-    
+  <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx" revision="jb-devel" />
+  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx" revision="jb-devel" />
+  
   <!-- CM needed hardware -->
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
@@ -397,44 +399,54 @@
   <project path="system/core" name="system_core" remote="aokp" revision="jb-mr1" />
   <project path="system/extras" name="system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/vold" name="system_vold" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="frameworks/av" name="frameworks_av" remote="aokp" revision="jb-mr1" /> -->
+  <!-- <project path="frameworks/native" name="frameworks_native" remote="aokp" revision="jb-mr1" /> -->
   <project path="frameworks/rs" name="frameworks_rs" remote="aokp" revision="jb-mr1" />
-  
+  <project path="prebuilts/misc" name="AOKP/prebuilts_misc" remote="aokp" revision="jb-mr1" />
+ 
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jellybean" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
 
   <!-- Andromadus -->
+  <project path="device/htc/common" name="Andromadus/android_device_htc_common" remote="andro" revision="jb" />
+  <project path="device/htc/msm7x30-common" name="Andromadus/android_device_htc_msm7x30-common" remote="andro" revision="cm10.1" />
+  <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="andro" revision="cm10.1" />
+  <project path="frameworks/base" name="Andromadus/android_frameworks_base" remote="andro" revision="cm10.1" />
+  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="andro" revision="cm10.1" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="andro" revision="Andro4.2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="andro" revision="cm10.1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="andro" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="andro" revision="cm10.1" />
+  <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="andro" revision="jellybean" />
+  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="andro" revision="cm10.1" />
   
   <!-- Mustaavalkosta -->
-  <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" />
-  <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
+  <!-- <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" /> -->
+  <!-- <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" /> -->
   <!-- <project path="frameworks/av" name="android_frameworks_av" remote="Mustaavalkosta" revision="cm-10.1" /> -->
   <!-- <project path="frameworks/native" name="android_frameworks_native" remote="Mustaavalkosta" revision="cm-10.1" /> -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
-  <project path="prebuilts/misc" name="android_prebuilts_misc" remote="Mustaavalkosta" revision="jb-mv" />
-  <project path="vendor/htc/ace" name="android_vendor_htc_ace" remote="Mustaavalkosta" revision="cm-10.1" />
-  <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="Mustaavalkosta" revision="cm-10.1" />
+  <!-- <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" /> -->
+  <!-- <project path="prebuilts/misc" name="android_prebuilts_misc" remote="Mustaavalkosta" revision="jb-mv" /> -->
+  <!-- <project path="vendor/htc/ace" name="android_vendor_htc_ace" remote="Mustaavalkosta" revision="cm-10.1" /> -->
+  <!-- <project path="vendor/qcom/proprietary" name="android_vendor_qcom_proprietary" remote="Mustaavalkosta" revision="cm-10.1" /> -->
   <project path="vendor/cm" name="android_vendor_cm" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="vendor/pizza" name="android_vendor_pizza" remote="Mustaavalkosta" revision="jb-mv" />
   
   <!-- espmartin -->
-  <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" />
-  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" />
-  <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-must" /> -->
+  <!-- <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" /> -->
+  <!-- <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-kang" /> -->
+  <project path="device/htc/ace" name="espmartin/android_device_htc_ace" remote="github" revision="jb-andro" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
  <!-- toolchains and kernels -->
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="cfx" revision="jb-devel" />
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="andro" revision="jellybean" />
+  <project path="kernel/htc/msm7x30-3.0" name="htc7x30-3.0" remote="andro" revision="andromadus" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
-  <project path="kernel/htc/htc7x30-3.0" name="htc7x30-3.0" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
+  <!-- <project path="kernel/htc/htc7x30-3.0" name="htc7x30-3.0" remote="Mustaavalkosta" revision="cm-10.1" /> -->
   
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
