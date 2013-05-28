@@ -373,7 +373,6 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
-  <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
@@ -408,6 +407,7 @@
 
   <!-- SaberMod -->
   <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
   
   <!-- Mustaavalkosta -->
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
