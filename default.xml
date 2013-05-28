@@ -28,6 +28,9 @@
   <remote  name="Mustaavalkosta"
            fetch="https://github.com/Mustaavalkosta/" />
 
+ <remote name="sm"
+           fetch="https://github.com/SaberMod/" />
+ 
   <remote  name="omapzoom"
            fetch="git://git.omapzoom.org/"
            review="http://review.omapzoom.org/" />
@@ -80,7 +83,7 @@
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
+  <!-- <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" /> -->
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -406,6 +409,9 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jellybean" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
 
+  <!-- SaberMod -->
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  
   <!-- Mustaavalkosta -->
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" />
