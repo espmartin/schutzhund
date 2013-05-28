@@ -433,7 +433,7 @@
   <project path="kernel/htc/msm7x30-3.0" name="htc7x30-3.0" remote="andro" revision="andromadus" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
-  <project path="kernel/htc/Must-htc7x30-3.0" name="htc7x30-3.0" remote="Mustaavalkosta" revision="cm-10.1" />
+  <!-- <project path="kernel/htc/Must-htc7x30-3.0" name="htc7x30-3.0" remote="Mustaavalkosta" revision="cm-10.1" /> -->
   
   <!-- begin espmartin's to be worked on -->
   <!-- <project path="packages/apps/Android-Terminal-Emulator" name="jackpal/Android-Terminal-Emulator" remote="github" revision="master" /> -->
