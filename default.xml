@@ -488,7 +488,7 @@
   
   <!-- espmartin -->
   <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" />
-  <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
+  <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-team" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
  <!-- toolchains and kernels -->
