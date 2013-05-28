@@ -430,6 +430,7 @@
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="andro" revision="jellybean" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-musta" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master" />
   <project path="kernel/htc/msm7x30-3.0" name="htc7x30-3.0" remote="andro" revision="andromadus" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
