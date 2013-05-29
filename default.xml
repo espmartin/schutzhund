@@ -280,7 +280,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
+  <!-- <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" /> -->
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -423,6 +423,8 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sm" revision="sm-jb-mr1" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sm" revision="sm-jb-mr1" />
+  
   <!-- <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" /> -->
  
   <!-- espmartin -->
