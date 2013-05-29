@@ -423,10 +423,10 @@
   <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" />
+  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" /> -->
  
   <!-- espmartin -->
-  <!-- <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" /> -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="espmartin" revision="jb-mr1" />
   <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
