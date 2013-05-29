@@ -43,7 +43,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="build" remote="espmartin" revision="jb-mr1" >
+  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="schutzhund" name="schutzhund" remote="espmartin" revision="aokp" />
@@ -54,8 +54,7 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
-  <!-- <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" /> -->
-  <project path="dalvik" name="android_dalvik" remote="sm" revision="sm-jb-mr1" />
+  <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
@@ -147,6 +146,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -185,6 +185,9 @@
   <project path="external/okhttp" name="platform/external/okhttp" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
+  <project path="external/openssh" name="platform/external/openssh" />
+  <project path="external/openssl" name="platform/external/openssl" />
+  <project path="external/oprofile" name="platform/external/oprofile" />
   <project path="external/ping" name="platform/external/ping" />
   <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
@@ -228,7 +231,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <!-- <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" /> -->
+  <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
   <!-- <project path="frameworks/base" name="AOKP/frameworks_base" remote="aokp" revision="jb-mr1" /> -->
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -238,7 +241,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <!-- <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb-mr1" /> -->
+  <project path="frameworks/native" name="AOKP/frameworks_native" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -246,6 +249,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
@@ -264,6 +268,7 @@
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
@@ -275,12 +280,13 @@
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/Calculator" name="AOKP/packages_apps_Calculator" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CDMATools" name="AOKP/packages_apps_CDMATools" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <!-- <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" /> -->
+  <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="AOKP/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Email" name="AOKP/packages_apps_Email" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
@@ -318,11 +324,8 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
-  <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
-  <!-- <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" /> -->
-  <!-- <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" /> -->
-  <!-- <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" /> -->
+  <project path="packages/providers/ContactsProvider" name="AOKP/packages_providers_ContactsProvider" remote="aokp" revision="jb-mr1" />
+  <project path="packages/providers/DownloadProvider" name="AOKP/packages_providers_DownloadProvider" remote="aokp" revision="jb-mr1" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -370,6 +373,7 @@
   <project path="system/extras" name="AOKP/system_extras" remote="aokp" revision="jb-mr1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-10.1" />
+  <project path="system/security" name="platform/system/security" />
   <project path="system/vold" name="AOKP/system_vold" remote="aokp" revision="jb-mr1" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
@@ -395,14 +399,15 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
-  <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" remote="cm" revision="cm-10.1"/>
-  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="cm" revision="cm-10.1" />
   
   <!-- PA -->
   <project path="external/doclava" name="android_external_doclava" remote="pa" revision="jellybean" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jellybean" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
 
+  <!-- SaberMod -->
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  
   <!-- Mustaavalkosta -->
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" />
@@ -415,23 +420,8 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="vendor/pizza" name="android_vendor_pizza" remote="Mustaavalkosta" revision="jb-mv" />
   
-  <!-- SaberMod -->
-  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
-  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openssh" name="android_external_openssh" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openssl" name="android_external_openssl" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="sm" revision="sm-jb-mr1" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sm" revision="sm-jb-mr1" />
-  
-  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" /> -->
- 
   <!-- espmartin -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="espmartin" revision="jb-mr1" />
+  <project path="frameworks/base" name=" frameworks_base_aokp" remote="espmartin" revision="jb-mr1" />
   <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
@@ -440,7 +430,6 @@
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-linaro-4.7" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-linaro-4.7" remote="andro" revision="jellybean" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-musta" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="Mustaavalkosta" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.7" remote="sm" revision="master" />
   <project path="kernel/htc/msm7x30-3.0" name="htc7x30-3.0" remote="andro" revision="andromadus" />
   <project path="kernel/htc/KangBanged-7x30" name="KangBangKreations/KangBanged-7x30" remote="github" revision="kb-stable" />
   <project path="kernel/htc/CowboyKernel-7x30" name="TeamPA/CowboyKernel-7x30" remote="github" revision="jellybean" />
