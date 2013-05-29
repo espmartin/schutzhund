@@ -401,17 +401,6 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jellybean" />
   <project path="vendor/tmobile" name="android_vendor_tmobile" remote="pa" revision="jellybean" />
 
-  <!-- SaberMod -->
-  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
-  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openssh" name="android_external_openssh" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openssl" name="android_external_openssl" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/openvpn" name="android_external_openvpn" remote="sm" revision="sm-jb-mr1" />
-  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
-  
   <!-- Mustaavalkosta -->
   <project path="device/htc/common" name="android_device_htc_common" remote="Mustaavalkosta" revision="cm-10.1" />
   <project path="device/htc/msm7x30-common" name="android_device_htc_msm7x30-common" remote="Mustaavalkosta" revision="jb-mv" />
@@ -424,8 +413,20 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="Mustaavalkosta" revision="jb-mv" />
   <project path="vendor/pizza" name="android_vendor_pizza" remote="Mustaavalkosta" revision="jb-mv" />
   
+  <!-- SaberMod -->
+  <project path="external/busybox" name="android_external_busybox" remote="sm" revision="sm-jb-mr1" />
+  <project path="system/security" name="android_system_security" remote="sm" revision="sm-jb-mr1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/openssh" name="android_external_openssh" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/openssl" name="android_external_openssl" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/openvpn" name="android_external_openvpn" remote="sm" revision="sm-jb-mr1" />
+  <project path="external/oprofile" name="android_external_oprofile" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="sm" revision="sm-jb-mr1" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="sm" revision="sm-jb-mr1" />
+ 
   <!-- espmartin -->
-  <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" />
+  <!-- <project path="frameworks/base" name="frameworks_base" remote="espmartin" revision="jb-mr1" /> -->
   <project path="device/htc/ace" name="android_device_htc_ace" remote="espmartin" revision="jb-kang" />
   <project path="vendor/aokp" name="vendor_aokp" remote="espmartin" revision="jb-mr1" />
     
